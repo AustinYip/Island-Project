@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=IslandBase
+comment0.text=\r\n\ The\ base\ island\ on\ which\ the\ simulation\ takes\ place\r\n\ \r\n\ Notes\r\n\ \r\n\ Adjust\ values\r\n\ Add\ waves\ (RANDOM_SPREAD\ each\ cycle,\ turn\ a\ little)\r\n\ Camera\ system\ (position\ and\ resizing)\r\n
+comment1.params=
+comment1.target=IslandBase()
+comment2.params=
+comment2.target=greenfoot.GreenfootImage\ resetImage()
+comment3.params=distanceBwPoints\ radius\ randomSpread\ waveLength\ waves\ waveOffset\ heightWidthRatio
+comment3.target=greenfoot.GreenfootImage\ getIslandImage(double,\ double,\ double[],\ double,\ int,\ int,\ double)
+comment3.text=\r\n\ Get\ the\ image\ of\ the\ Island\ using\ a\ wave\ function\r\n\ \r\n\ @author\ Nathan\ Jiang\r\n\ @version\ October\ 2022\r\n
+comment4.params=radius\ randomSpread\ waveLength\ waveOffset
+comment4.target=greenfoot.GreenfootImage\ getIslandImage(double,\ double[],\ double,\ int)
+comment5.params=xPoints\ yPoints\ numPoints\ degreeSize\ overallRadius\ waveLength\ min\ randomSpread\ waves\ waveOffset\ heightWidthRatio
+comment5.target=void\ getSplatPoints(int[],\ int[],\ int,\ double,\ double,\ double,\ double,\ double[],\ int,\ double,\ double)
+numComments=6

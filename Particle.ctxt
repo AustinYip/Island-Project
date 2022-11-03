@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Particle
+comment0.text=\r\n\ The\ Particle\ class\ is\ used\ to\ create\ several\ effects\ for\ Vehicles\ and\ Pedestrians\ (smoke,\ blood)\r\n
+comment1.params=dynamic\ width\ height\ speed\ rotation\ color\ opacityChange
+comment1.target=Particle(boolean,\ int,\ int,\ double,\ int,\ greenfoot.Color,\ int)
+comment2.params=color\ opacityChange
+comment2.target=Particle(greenfoot.Color,\ int)
+comment3.params=
+comment3.target=greenfoot.GreenfootImage\ resetImage()
+comment4.params=
+comment4.target=void\ run()
+comment5.params=decelerationRate
+comment5.target=void\ decelerate(double)
+comment6.params=
+comment6.target=greenfoot.GreenfootImage\ getParticleImage()
+comment7.params=
+comment7.target=boolean\ optimizedUnload()
+numComments=8

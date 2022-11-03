@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=SimWorld
+comment0.text=\r\n\ The\ SimWorld\ class\ renders\ Actors\ and\ UI\ Elements\r\n\ \r\n\ @author\ Nathan\ Jiang\r\n\ @version\ October\ 2022\r\n
+comment1.params=
+comment1.target=SimWorld()
+comment1.text=\r\n\ Constructor\ for\ SimWorld\r\n\ \r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ loop\r\n
+comment3.params=
+comment3.target=void\ uiUpdates()
+comment3.text=\r\n\ Method\ to\ update\ FPS\ counter\r\n
+numComments=4

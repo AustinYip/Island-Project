@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Sound
+comment0.text=\r\n\ The\ Sound\ class\ stores\ information\ about\ a\ sound\ and\ multiple\ copies\ to\ play.\r\n\ \r\n\ @author\ Nathan\ Jiang\r\n\ @version\ October\ 2022\r\n
+comment1.params=name
+comment1.target=Sound(java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ a\ sound\r\n\ \r\n\ @param\ name\ \ The\ name\ of\ the\ file\r\n
+comment2.params=volume
+comment2.target=void\ playSound(int)
+comment2.text=\r\n\ Method\ to\ play\ a\ sound\ based\ on\ the\ iterator\ (this\ way\ multiple\ sounds\ can\ play\ at\ the\ same\ time)\r\n\ \r\n\ @param\ volume\ \ \ \ The\ volume\ of\ the\ sound\r\n
+numComments=3
