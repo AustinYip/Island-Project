@@ -9,4 +9,6 @@ comment3.params=
 comment3.target=void\ run()
 comment4.params=
 comment4.target=void\ addPeople()
-numComments=5
+comment5.params=
+comment5.target=void\ procreate()
+numComments=6
