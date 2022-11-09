@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Person extends LivingThing
+public abstract class Person extends LivingThing
 {
     /**
      * Act - do whatever the Person wants to do. This method is called whenever

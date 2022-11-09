@@ -9,18 +9,17 @@ import java.util.ArrayList;
 public class Hut extends Structure
 {
     private int peopleInHut;
-    //private boolean hutFull;
     private GreenfootImage hutImage = new GreenfootImage("hut.png");
     private ArrayList residence;
     private int adultCount;
     private boolean reproducable;
+    private int birthChance;
     public GreenfootImage resetImage(){
         return new GreenfootImage (hutImage);
     }
 
     public Hut(){
         peopleInHut = 0;
-        //hutFull = false;
         ArrayList<Person> residence = new ArrayList<Person>();
     }
 
@@ -31,25 +30,18 @@ public class Hut extends Structure
             }
         }
     }
-    
-    /*
-    private void addPeople(){
-        if (hutFull == false){
-            peopleInHut++;
-            if (peopleInHut == 2){
-                hutFull = true;
-            }
-        }
-    }
-    */
-    
+
     private void enterHouse(Person p){
         residence.add(p);
     }
 
     private void procreate(){
         if (adultCount>=2){
-            
+            birthChance = Greenfoot.getRandomNumber(10);
+            if (birthChance == 3 || birthChance == 8 || birthChance ==10){
+                Child c = new Child();
+                residence.add(c);
+            }
         }
     }
 }
